@@ -1,13 +1,15 @@
 <footer class="footer-distributed">
 
 <div class="footer-left">
-<h3>Company<span>logo</span></h3>
+<!--<h3>Company<span>logo</span></h3>
+-->
 
-<p class="footer-company-name">Company Name &copy; 2015</p>
+<p class="footer-company-name"><%unless current_user%>Sign In or Sign Up to get access to projects <%end%>
+</p>
 <div class="footer-icons">
 <%= link_to "" , "https://www.facebook.com/vgswn" , class: "fa fa-facebook"%>
 <%= link_to "" , "https://www.twitter.com/vgswn" , class: "fa fa-twitter"%>
 <%= link_to "" , "https://www.linkedin.com/in/vgswn" , class: "fa fa-linkedin"%>
 <%= link_to "" , "https://www.github.com/vgswn" , class: "fa fa-github"%>
-</div>
+</div></div>
 </footer>
