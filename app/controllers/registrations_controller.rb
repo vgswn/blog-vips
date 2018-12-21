@@ -9,7 +9,6 @@ class RegistrationsController < Devise::RegistrationsController
 			:email,
 			:password,
 			:password_confirmation
-
 			)
 	end
 
