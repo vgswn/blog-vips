@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  get 'pages/projects'
   get 'index/about'
   get 'index/contact'
   devise_for :users

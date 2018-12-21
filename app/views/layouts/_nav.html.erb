@@ -20,6 +20,7 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
+      <%if current_user%><li><%=link_to "Projects",pages_projects_path %></li><%end%>
 
       <%unless current_user%><li><%=link_to "SignUp",new_user_registration_path %></li><%end%>
         <%unless current_user%><li><%=link_to "SignIn",new_user_session_path %></li><%end%>
